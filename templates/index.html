@@ -1,0 +1,27 @@
+    <!doctype html>
+    <html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <title>PDF Maker</title>
+    </head>
+    <body>
+    <h1>Online Notepad</h1> 
+    <br> Please report any bugs to <a href=\"mailto:m4.sh@tuta.io\"><i>the webmaster</i> <sub>(me)</sub>.</a> <br> Enjoy!</p>
+    <br>
+    <br>
+ <div class="container">
+        <div class="sidebar">
+            <div class="text-input">
+                <form method="POST">
+                    <textarea name="text_input" placeholder="Enter your text here...">{{ input_gl }}</textarea><br>
+                      <select name="export_as" id="export_as">
+                      <option value="txt">Export as Text File</option>
+                      <option value="pdf">Export as PDF File</option>
+                      <option value="html">Export as HTML</option>
+                    </select>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+    </div>
+    </body>
+    </html>
